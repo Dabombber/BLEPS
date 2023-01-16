@@ -282,7 +282,6 @@ function Write-BLECharacteristic {
 		[Alias('Buffer')]
 		[Windows.Storage.Streams.IBuffer] $DataBuffer,
 
-		# The WinRT IBuffer to retrieve data from.
 		[Parameter(Mandatory=$true, Position=0, ParameterSetName='String')]
 		[string] $String,
 
